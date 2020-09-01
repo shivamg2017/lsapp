@@ -38,3 +38,7 @@ Route::get('/user/{id}',function($id) {
     if(!$id) return "User not specified..";
     return "this is user".$id;
 });*/
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -15,7 +15,12 @@
           <a class="nav-link" href="/services">services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+      </ul>
+      <ul style="margin-right: 20rem" class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="/posts/create"> Create Post</a>
         </li>
       </ul>
     </div>
